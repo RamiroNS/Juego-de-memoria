@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(84,193,138);
+    background: radial-gradient(circle, rgba(84,193,138,1) 0%, rgba(184,29,175,1) 100%);
+    font-family: sans-serif;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    height: 90vh;
+    margin: 10px auto 50px;
+    margin-bottom: 0px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.section1{
+    background-color: rgba(255, 255, 255, .2);
+    width: 450px;
+    height: 500px;
+    margin: 40px 0p;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 4px;
+    font-size: 34px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.section2{
+    background-color: rgba(255, 255, 255, .2);
+    width: 300px;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.estadisticas{
+    height: 80px;
+    border: 1px solid wheat;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.div-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-button__reinicio{
+    text-align: center;
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+
+
